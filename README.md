@@ -9,7 +9,6 @@ The web scraping code extracts manga titles, genres, and descriptions from each 
 <br><br>
 Once the data extraction and processing are complete, the project generates a dataset containing the manga titles, genres, and descriptions. This dataset serves as a valuable resource for analyzing manga trends, conducting sentiment analysis, and building recommendation systems based on genre or content similarities.
 <br><br>
-<br>
 The project aims to provide personalized manga recommendations based on user input. It utilizes the concept of cosine similarity to determine the similarity between manga titles using their descriptions.
 <br><br>
 The project begins by loading a dataset containing manga titles, descriptions, and other relevant information. It then preprocesses the manga descriptions by applying TF-IDF vectorization, which assigns importance weights to the words based on their frequency across the entire corpus. This vectorization process helps capture the essence of each manga's description.
